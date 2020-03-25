@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="----------------------" />
+    <meta name="keywords" content="---------------------------------" />
+    <title>GDG Project</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" id="style" />
+    <link rel="stylesheet" href="icon/fontawe/all.min.css" />
+    <link rel="icon" href="img/logo2.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.htm"><img src="" alt="Logo"></a>
+            <ul id="menu">
+                <li><a href="#">Əsas Səhifə</a></li>
+                <li><a href="#">Haqqında</a></li>
+                <li><a href="#" class="Dropdown-menu">Dərsliklər (DropDown)</a></li>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Video</a></li>
+                </ul>
+                <li><a href="#">Komanda</a></li>
+                <li><a href="#">Əlaqə</a></li>
+            </ul>
+            <ul class="navTools">
+                <div class="tool">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="tool siteMode">
+                    <i class="fas fa-adjust"></i>
+                    <div class="mode">
+                        <i id="dark" class="fas fa-moon"></i>
+                        <i id="light" class="fas fa-sun"></i>
+                    </div>
+                </div>
+                <div class="tool language-pack">
+                    <i class="fas fa-globe"></i>
+                    <div class="languages">
+                        <a href="#">AZ</a>
+                        <a href="#">EN</a>
+                        <a href="#">RU</a>
+                    </div>
+                </div>
+                <div class="tool">
+                    <i class="open-modal-btn fas fa-user-circle"></i>
+                </div>
+            </ul>
+        </nav>
+        <div class="headInfo">
+            <h1>E-learning</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe repellat nesciunt officia consequatur
+                error mollitia, obcaecati iste culpa temporibus eaque necessitatibus ea nulla minus sit nemo ipsa, iusto
+                perferendis vel.
+            </p>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="icon">
+                <i class="fas fa-code"></i>
+                <hr />
+            </div>
+            <img id="man" src="img/man.png" alt="Man">
+            <div class="aboutSite">
+                <h2>About Site</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, laudantium asperiores error
+                    consequatur id deserunt magni repudiandae quis dolor, dolorem similique deleniti, illo at amet
+                    rerum. Odio, amet aut? Voluptatum!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="courses">
+        <div class="container">
+            <img src="img/user.jpg" alt="User Photo">
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <section class="title">
+                <h3>Bizimlə əlaqə</h3>
+                <p class="ctn">
+                    Istənilən vaxt bizə mesaj göndərin. Bütün təkliflərinizi dinləməyə hazırıq.
+                </p>
+            </section>
+            <section class="info">
+                <article>
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h6>Ünvan</h6>
+                    <hr />
+                    <p>
+                        Bakı, Azərbaycan
+                    </p>
+                </article>
+                <article>
+                    <i class="fas fa-mobile-alt"></i>
+                    <h6>Telefon</h6>
+                    <hr />
+                    <p>
+                        012 2 222-22-22
+                    </p>
+                </article>
+                <article>
+                    <i class="fas fa-at"></i>
+                    <h6>E-mail</h6>
+                    <hr />
+                    <p>
+                        <a href="mailto:m.ragimov09@gmail.com">GDG@mail</a>
+                    </p>
+                </article>
+            </section>
+            <section class="body">
+                <form action="#">
+                    <h6>Ad</h6>
+                    <input type="text" name="name" required />
+                    <h6>Soyad</h6>
+                    <input type="text" name="surname" required />
+                    <h6>E-poçt</h6>
+                    <input id="mail" type="email" name="email" required />
+                    <h6>Telefon nömrəniz</h6>
+                    <input type="number" name="phone" required />
+                    <h6>Mövzu</h6>
+                    <input type="text" name="theme" required />
+                    <h6>İsmarıc</h6>
+                    <textarea id="txt-area" name="message" cols="35" rows="5"></textarea>
+                    <div>
+                        <button onclick="sendMessage()">Göndər</button>
+                    </div>
+                </form>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.42999466043!2d49.714875395486395!3d40.394507979926985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2z0JHQsNC60YMsINCQ0LfQtdGA0LHQsNC50LTQttCw0L0!5e0!3m2!1sru!2s!4v1580691154802!5m2!1sru!2s"
+                    width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="">
+                </iframe>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <section id="footerElements">
+            <div class="subject">
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">jQuery</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <img src="" alt="Logo" />
+            </div>
+            <div class="footerMenu">
+                <ul>
+                    <li><a href="#">Əsas Səhifə</a></li>
+                    <li><a href="#">Haqqında</a></li>
+                    <li><a href="#">Dərsliklər</a></li>
+                    <li><a href="#">Komanda</a></li>
+                    <li><a href="#">Əlaqə</a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-github"></i>
+        </div>
+        <section class="end">
+            <p>Copyright&copy; 2020. E-learning </p>
+            <p>Bütün hüquqlar qorunur</p>
+        </section>    
+    </footer>
+    <div id="toTop"><i class="fas fa-chevron-circle-up"></i></div>
+
+    <script>
+
+        /*mouseover photo*/
+        document.getElementById("man").addEventListener("mouseover", function() {
+            document.getElementById("man").setAttribute("src", "img/man2.png");
+        });
+        document.getElementById("man").addEventListener("mouseout", function() {
+            document.getElementById("man").setAttribute("src", "img/man.png");
+        })
+
+    </script>
+    <script src="js/toTop.js"></script>
+    <script src="js/contactUs.js"></script>
+    <script src="js/mode.js"></script>
+    <script src="js/animationmodal.js"></script>
+    <script src="js/login-signup.js"></script>
+</body>
+
+</html>
